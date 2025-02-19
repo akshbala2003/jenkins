@@ -48,7 +48,7 @@ resource "aws_route_table" "public-rt" {
     gateway_id = aws_internet_gateway.test-ig.id
   }
   tags = {
-    Name = "Public-route-1-table-aks"
+    Name = "Public-route-2-table-aks"
   }
 }
 resource "aws_route_table_association" "public-rta" {
