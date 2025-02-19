@@ -34,7 +34,7 @@ resource "aws_subnet" "public_subnet" {
   vpc_id                  = aws_vpc.vpc.id
   map_public_ip_on_launch = true
   tags = {
-    Name = "public-subnet-2-aks-1a"
+    Name = "public-subnet-3-aks-1a"
   }
 }
 resource "aws_internet_gateway" "test-ig" {
