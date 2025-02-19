@@ -25,7 +25,7 @@ provider "aws" {
 resource "aws_vpc" "vpc" {
   cidr_block = "10.0.0.0/16"
   tags = {
-    Name = "test-1-vpc-aks"
+    Name = "test-2-vpc-aks"
   }
 }
 resource "aws_subnet" "public_subnet" {
